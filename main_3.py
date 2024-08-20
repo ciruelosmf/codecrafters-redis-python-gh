@@ -15,7 +15,7 @@ def handle_client(client_socket):
     client_socket.close()
 
 def main():
-    print("Logs from your program will appear here!")
+    print("Logs from your programs will appear here!")
 
     server_socket = socket.create_server(("localhost", 6379), reuse_port=True)
     
